@@ -1,0 +1,59 @@
+p {
+    width: 100%;
+    background-color: #009eff;
+    color: #000000;
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 5px;
+}
+
+div {
+    margin-left: 20%;
+    margin-right: 20%;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #9edfe9;
+    padding: 20px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit], [type=button] {
+    width: 100%;
+    background-color: #009eff;
+    color: #FFFFFF;
+    font-family: "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4dff17;
+}
+
+input[type=button]:hover {
+    background-color: #ee3379;
+}
+
+.dropdown {
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    cursor: pointer;
+}

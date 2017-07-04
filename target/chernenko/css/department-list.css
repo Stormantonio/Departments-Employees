@@ -1,0 +1,48 @@
+.fix-department {
+    width: 100%;
+    min-height: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #009eff;
+    color: #FFFFFF;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #99c0ff;
+}
+
+.div-departments {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    min-height: 100%;
+    background-color: #9edfe9;
+    float: left;
+}
+
+.table-department {
+    margin-left: 1%;
+    margin-top: 30px;
+    border: 2px solid #009eff;
+    border-collapse: collapse;
+    width: 98%;
+}
+
+.td-departments {
+    border: 2px solid #009eff;
+    width: 80%;
+    padding: 1px 4px;
+    text-align: left;
+}
