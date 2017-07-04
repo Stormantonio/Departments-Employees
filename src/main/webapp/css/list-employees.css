@@ -59,3 +59,7 @@ input[type=submit]:hover {
     padding: 20px;
     text-align: left;
 }
+
+body {
+    background-color: rgba(173, 101, 0, 0.84);
+}

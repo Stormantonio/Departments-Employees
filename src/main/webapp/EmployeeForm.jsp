@@ -38,7 +38,6 @@
         <label>Email</label><br>
         <input type="text" name="email" placeholder="user@example.com" size="45"
                value="<c:out value='${employee.email}'/>"/><br>
-        <br>
         <input type="submit" value="ADD NEW EMPLOYEE"/>
         <a href="http://localhost:8088/listEmployeesByDepartmentName?departmentName=<%= depN%>">
             <input type="button" value="CANCEL">
